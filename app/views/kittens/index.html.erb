@@ -1,1 +1,20 @@
-hi
+<h1>Kittens:</h1>
+
+<ul>
+  <% @kittens.each do |i| %>
+    <li>
+      <%= i.name %>,  <%= i.age %>,  <%= i.cuteness %>,  <%= i.softness %>
+      <%= link_to "Edit", edit_kitten_path(i) %>
+      <%= link_to "Destroy", kitten_path(i), data: {
+                    turbo_method: :delete,
+                    turbo_confirm: "Are you sure?"
+                  } %>
+    </li>
+  <% end %>
+</ul>
+
+<% flash.each do |type, msg| %>
+  <div>
+    <%= msg %>
+  </div>
+<% end %>  
