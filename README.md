@@ -1,2 +1,2 @@
-A project to dive into nested forms. This project was completed as part of [The Odin Project](https://www.theodinproject.com/lessons/ruby-on-rails-kittens-api) curriculum. 
+It is a project as part of [The Odin Project's Curriculum](https://www.theodinproject.com/lessons/ruby-on-rails-kittens-api). 
 This is a fast and intuitive project that has the Rails application configured as an API for creating data... which is just a fancy way of saying that all controller methods will display data instead of HTML. Consider this an exercise in quickly creating a pure vanilla RESTful resource.
